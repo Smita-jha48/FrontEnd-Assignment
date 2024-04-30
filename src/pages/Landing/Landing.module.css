@@ -1,0 +1,30 @@
+.CreatePost{
+    width: 30%;
+    background: #f1f1f1; ;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.CardContainer{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.Card{
+    border: 2px solid red;
+}
+.buttonContainer{
+    display: flex;
+    gap:10px;
+}
+.buttonContainer button{
+    padding: 10px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
